@@ -1,0 +1,45 @@
+{
+  "boothName": "yoyo",
+  "id": "1757945760183",
+  "name": "yoyo",
+  "roles": [
+    {
+      "id": "1757945768967",
+      "name": "aa",
+      "candidates": [
+        {
+          "id": "1757946094383",
+          "name": "adsaasdad",
+          "class": "asda",
+          "section": "dasd",
+          "house": "Dunagiri",
+          "image": "",
+          "photoRect": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          },
+          "roleId": "1757945768967"
+        }
+      ],
+      "numberOfVotes": 1
+    }
+  ],
+  "isActive": true,
+  "totalVotes": 0,
+  "tokensEnabled": true,
+  "startTime": "2025-10-19T17:16:11.133Z",
+  "endTime": "2025-10-19T17:16:03.942Z",
+  "tokens": [
+    {
+      "code": "1757-OYTIOYXM",
+      "used": true
+    },
+    {
+      "code": "1757-K4WQARQO",
+      "used": true
+    }
+  ],
+  "tokensSingleUse": true
+}

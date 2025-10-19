@@ -1,0 +1,48 @@
+{
+  "boothName": "sadsafd",
+  "id": "1752385359713",
+  "name": "sadsafd",
+  "roles": [
+    {
+      "id": "1752385622586",
+      "name": "admin123",
+      "candidates": [
+        {
+          "id": "1752385628089",
+          "name": "sdasd",
+          "class": "asdas",
+          "section": "asdasd",
+          "house": "Nilgiri",
+          "image": "",
+          "photoRect": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          },
+          "roleId": "1752385622586"
+        },
+        {
+          "id": "1752385631793",
+          "name": "asda",
+          "class": "asda",
+          "section": "asda",
+          "house": "Nilgiri",
+          "image": "",
+          "photoRect": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          },
+          "roleId": "1752385622586"
+        }
+      ],
+      "numberOfVotes": 1
+    }
+  ],
+  "isActive": false,
+  "totalVotes": 1,
+  "startTime": "2025-07-13T05:47:12.977Z",
+  "endTime": "2025-07-13T05:47:56.168Z"
+}

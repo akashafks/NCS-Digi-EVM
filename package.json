@@ -1,0 +1,50 @@
+{
+  "name": "digital-evm-booth",
+  "version": "1.0.1",
+  "description": "Portable Digital EVM Booth for Navy Children School Vizag",
+  "author": "Akash Prasad",
+  "scripts": {
+    "start:electron": "electron main.js",
+    "build:frontend": "cd \"Digital EVM 1\" && npm run build",
+    "start:all": "npm run build:frontend && npm run start:electron",
+    "build:app": "npm run build:frontend && electron-builder --win --x64",
+    "dist": "electron-builder",
+    "build": "vite build",
+    "electron:build": "electron-builder"
+  },
+  "main": "main.js",
+  "build": {
+    "appId": "com.ncsvizag.evmdigital",
+    "productName": "Navy Children School - Digital EVM",
+    "files": [
+      "Digital EVM 1/**",
+      "main.js",
+      "preload.js",
+      "package.json"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    },
+    "extraResources": [
+      {
+        "from": "data",
+        "to": "data"
+      }
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "dist/.icon-ico/icon.ico"
+    }
+  },
+  "devDependencies": {
+    "@types/plist": "^3.0.5",
+    "@types/verror": "^1.10.11",
+    "electron": "^37.2.1",
+    "electron-builder": "^26.0.12",
+    "vite": "^7.0.4"
+  },
+  "dependencies": {
+    "uuid": "^11.1.0",
+    "xlsx": "^0.18.5"
+  }
+}
